@@ -1,0 +1,2562 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>1st Followup Questionnaire</h:title>
+    <model>
+      <instance>
+        <data id="build_1st-Followup-Questionnaire_1480679795">
+          <meta>
+            <instanceID/>
+          </meta>
+          <interview_details>
+            <date_of_interview/>
+            <participant_id/>
+            <name/>
+            <phone_no/>
+            <husbands_phone_no/>
+            <interviewer_id/>
+          </interview_details>
+          <text1/>
+          <gestational_age/>
+          <t1>
+            <date_of_ultrasound/>
+            <weight/>
+            <gestational_age/>
+            <any_other_congenital_abnormalities/>
+            <if_yes_specify/>
+          </t1>
+          <t2>
+            <date_of_ultrasound/>
+            <weight/>
+            <gestational_age/>
+            <any_other_congenital_abnormalities/>
+            <if_yes_specify/>
+          </t2>
+          <pregnancy_complications>
+            <pregnancy_complications/>
+            <any_other_risk_please_specify/>
+          </pregnancy_complications>
+          <edd/>
+          <husbands_smoking_pattern>
+            <hsp_que1/>
+            <hsp_que1_1/>
+            <hsp_que2/>
+            <hsp_que3/>
+            <hsp_que4/>
+            <hsp_que5/>
+            <hsp_que6/>
+          </husbands_smoking_pattern>
+          <family_smoking_pattern jr:template="">
+            <fsp_que1/>
+            <fsp_que1_1/>
+          </family_smoking_pattern>
+          <awareness_about_second_hand_smoke>
+            <awareness_que1/>
+            <awareness_que2/>
+            <awareness_que3/>
+            <awareness_que4/>
+            <awareness_que5/>
+            <awareness_que6/>
+            <awareness_que7/>
+            <awareness_que8/>
+            <awareness_que9/>
+            <awareness_que10/>
+          </awareness_about_second_hand_smoke>
+          <often_do_the_following>
+            <general_que1/>
+            <general_que2/>
+            <general_que3/>
+            <general_que4/>
+            <general_que5/>
+            <general_que6/>
+            <general_que7/>
+            <general_que8/>
+            <general_que9/>
+            <general_que10/>
+            <general_que11/>
+            <general_que12/>
+            <general_que13/>
+            <general_que14/>
+            <general_que15/>
+            <general_que16/>
+            <general_que17/>
+          </often_do_the_following>
+          <readiness_to_change>
+            <rc_que1/>
+            <rc_que2/>
+            <rc_que3/>
+            <rc_que4/>
+            <rc_que5/>
+            <rc_que6/>
+          </readiness_to_change>
+          <stages_of_change/>
+          <saliva_cotinine>
+            <sc_que1/>
+            <sc_que2/>
+          </saliva_cotinine>
+          <urine_cotinine>
+            <uc_que1/>
+            <uc_que2/>
+          </urine_cotinine>
+          <delivery_details>
+            <dd_que1/>
+            <dd_que2/>
+            <dd_que3/>
+            <dd_que4/>
+            <dd_que5/>
+          </delivery_details>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/interview_details:label">
+            <value>Interview Details</value>
+          </text>
+          <text id="/data/interview_details/date_of_interview:label">
+            <value>Date of interview</value>
+          </text>
+          <text id="/data/interview_details/date_of_interview:hint">
+            <value></value>
+          </text>
+          <text id="/data/interview_details/participant_id:label">
+            <value>Participant ID</value>
+          </text>
+          <text id="/data/interview_details/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/data/interview_details/name:hint">
+            <value></value>
+          </text>
+          <text id="/data/interview_details/phone_no:label">
+            <value>Phone Number</value>
+          </text>
+          <text id="/data/interview_details/phone_no:hint">
+            <value></value>
+          </text>
+          <text id="/data/interview_details/phone_no:constraintMsg">
+            <value>Please enter a valid 10 digit phone number</value>
+          </text>
+          <text id="/data/interview_details/husbands_phone_no:label">
+            <value>Husband's Phone Number</value>
+          </text>
+          <text id="/data/interview_details/husbands_phone_no:constraintMsg">
+            <value>Please enter a valid 10 digit phone number</value>
+          </text>
+          <text id="/data/interview_details/interviewer_id:label">
+            <value>Interviewer ID</value>
+          </text>
+          <text id="/data/interview_details/interviewer_id:hint">
+            <value></value>
+          </text>
+          <text id="/data/interview_details/interviewer_id:option0">
+            <value>SM</value>
+          </text>
+          <text id="/data/interview_details/interviewer_id:option1">
+            <value>AD</value>
+          </text>
+          <text id="/data/text1:label">
+            <value>Next enter the Obstetric Details of Pregnant Woman</value>
+          </text>
+          <text id="/data/text1:hint">
+            <value></value>
+          </text>
+          <text id="/data/gestational_age:label">
+            <value>Gestational Age</value>
+          </text>
+          <text id="/data/gestational_age:hint">
+            <value>in weeks</value>
+          </text>
+          <text id="/data/t1:label">
+            <value>Ultrasound Details T1</value>
+          </text>
+          <text id="/data/t1/date_of_ultrasound:label">
+            <value>Date of ultrasound</value>
+          </text>
+          <text id="/data/t1/weight:label">
+            <value>Weight (in kgs/decimal)</value>
+          </text>
+          <text id="/data/t1/gestational_age:label">
+            <value>Gestational Age (in weeks)</value>
+          </text>
+          <text id="/data/t1/any_other_congenital_abnormalities:label">
+            <value>Any other congenital abnormalities</value>
+          </text>
+          <text id="/data/t1/any_other_congenital_abnormalities:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/t1/any_other_congenital_abnormalities:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/t1/if_yes_specify:label">
+            <value>If yes, Specify</value>
+          </text>
+          <text id="/data/t2:label">
+            <value>Ultrasound Details T2</value>
+          </text>
+          <text id="/data/t2/date_of_ultrasound:label">
+            <value>Date of ultrasound</value>
+          </text>
+          <text id="/data/t2/date_of_ultrasound:hint">
+            <value></value>
+          </text>
+          <text id="/data/t2/weight:label">
+            <value>Weight (in kgs/decimal)</value>
+          </text>
+          <text id="/data/t2/weight:hint">
+            <value></value>
+          </text>
+          <text id="/data/t2/gestational_age:label">
+            <value>Gestational Age (in weeks)</value>
+          </text>
+          <text id="/data/t2/any_other_congenital_abnormalities:label">
+            <value>Any other congenital abnormalities</value>
+          </text>
+          <text id="/data/t2/any_other_congenital_abnormalities:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/t2/any_other_congenital_abnormalities:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/t2/if_yes_specify:label">
+            <value>If yes, Specify</value>
+          </text>
+          <text id="/data/pregnancy_complications:label">
+            <value>Pregnancy Complications</value>
+          </text>
+          <text id="/data/pregnancy_complications/pregnancy_complications:label">
+            <value>Pregnancy Complications</value>
+          </text>
+          <text id="/data/pregnancy_complications/pregnancy_complications:hint">
+            <value></value>
+          </text>
+          <text id="/data/pregnancy_complications/pregnancy_complications:option0">
+            <value>None</value>
+          </text>
+          <text id="/data/pregnancy_complications/pregnancy_complications:option1">
+            <value>Gestational Diabetes</value>
+          </text>
+          <text id="/data/pregnancy_complications/pregnancy_complications:option2">
+            <value>Hypertension</value>
+          </text>
+          <text id="/data/pregnancy_complications/pregnancy_complications:option3">
+            <value>PET</value>
+          </text>
+          <text id="/data/pregnancy_complications/pregnancy_complications:option4">
+            <value>Anaemia</value>
+          </text>
+          <text id="/data/pregnancy_complications/pregnancy_complications:option5">
+            <value>Miscarriage</value>
+          </text>
+          <text id="/data/pregnancy_complications/pregnancy_complications:option6">
+            <value>MTP</value>
+          </text>
+          <text id="/data/pregnancy_complications/any_other_risk_please_specify:label">
+            <value>Any other risk please specify</value>
+          </text>
+          <text id="/data/edd:label">
+            <value>EDD</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern:label">
+            <value>Husband's Smoking Pattern</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que1:label">
+            <value>In the last one week how often did he smoke at home?</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que1:hint">
+            <value></value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que1:option0">
+            <value>Daily</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que1:option1">
+            <value>1-3 days/week</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que1:option2">
+            <value>4-6 days/week</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que1_1:label">
+            <value>if other, Please specify</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que2:label">
+            <value>Is this pattern typical of the last one month?</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que2:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que2:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que3:label">
+            <value>If no, </value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que3:option0">
+            <value>Was it more than last week</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que3:option1">
+            <value>Was it less than last week</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que4:label">
+            <value>In the last one month, on a typical day how many cigarettes would he smoke inside home? (cig/day)</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que4:hint">
+            <value>Leave blank if not sure</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que5:label">
+            <value>Overall, would you say your husband has reduced smoking inside home in the last three months</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que5:option0">
+            <value>Yes, completely stopped</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que5:option1">
+            <value>Yes, to a great extent</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que5:option2">
+            <value>Yes, to a little extent</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que5:option3">
+            <value>Not at all</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que6:label">
+            <value>Has he reduced smoking outside home in the last three months?</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que6:option0">
+            <value>Yes, completely stopped</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que6:option1">
+            <value>Yes, to a great extent</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que6:option2">
+            <value>Yes, to a little extent</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que6:option3">
+            <value>Not at all</value>
+          </text>
+          <text id="/data/husbands_smoking_pattern/hsp_que6:option4">
+            <value>Not Sure</value>
+          </text>
+          <text id="/data/family_smoking_pattern:label">
+            <value>Family Smoking Pattern</value>
+          </text>
+          <text id="/data/family_smoking_pattern/fsp_que1:label">
+            <value>Family Member Relationship</value>
+          </text>
+          <text id="/data/family_smoking_pattern/fsp_que1:hint">
+            <value>For every family member who smokes answer the following</value>
+          </text>
+          <text id="/data/family_smoking_pattern/fsp_que1_1:label">
+            <value>Has your above family member reduced smoking at home in the last three months?</value>
+          </text>
+          <text id="/data/family_smoking_pattern/fsp_que1_1:option0">
+            <value>Yes, completely stopped</value>
+          </text>
+          <text id="/data/family_smoking_pattern/fsp_que1_1:option1">
+            <value>Yes, to a great extent</value>
+          </text>
+          <text id="/data/family_smoking_pattern/fsp_que1_1:option2">
+            <value>Yes, to a little extent</value>
+          </text>
+          <text id="/data/family_smoking_pattern/fsp_que1_1:option3">
+            <value>Not at all</value>
+          </text>
+          <text id="/data/family_smoking_pattern/fsp_que1_1:option4">
+            <value>Not sure</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke:label">
+            <value>Awareness about Second-hand Smoke</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que1:label">
+            <value>Tobacco smoke inhaled by you can harm your health </value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que1:option0">
+            <value>Totally Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que1:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que1:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que1:option3">
+            <value>Totally Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que2:label">
+            <value>Tobacco smoke equally affects the smoker and the non-smoker who inhales it</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que2:option0">
+            <value>Totally Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que2:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que2:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que2:option3">
+            <value>Totally Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que3:label">
+            <value>Tobacco smoke contains chemicals that may cause cancer, heart and lung diseases in a non-smoker who inhales it</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que3:option0">
+            <value>Totally Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que3:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que3:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que3:option3">
+            <value>Totally Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que4:label">
+            <value>If a woman inhales tobacco smoke during pregnancy, it affects the health of the unborn child</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que4:option0">
+            <value>Totally Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que4:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que4:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que4:option3">
+            <value>Totally Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que5:label">
+            <value>If a woman inhales tobacco smoke during pregnancy, the adverse effects on the unborn child can last for many years of the child’s life</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que5:option0">
+            <value>Totally Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que5:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que5:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que5:option3">
+            <value>Totally Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que6:label">
+            <value>The harmful tobacco smoke remains in curtains, clothes, and bedsheets for a few days after a person has smoked in the home</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que6:option0">
+            <value>Totally Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que6:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que6:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que6:option3">
+            <value>Totally Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que7:label">
+            <value>If a young baby/child inhales tobacco smoke, it affects his/her physical growth and development</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que7:option0">
+            <value>Totally Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que7:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que7:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que7:option3">
+            <value>Totally Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que8:label">
+            <value>Children who inhale tobacco smoke have more medical illnesses, such as cough, asthma, pneumonia etc</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que8:option0">
+            <value>Totally Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que8:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que8:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que8:option3">
+            <value>Totally Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que9:label">
+            <value>If a child inhales tobacco smoke, it can also affect his/her academic performance </value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que9:option0">
+            <value>Totally Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que9:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que9:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que9:option3">
+            <value>Totally Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que10:label">
+            <value>If a child plays in a room where someone recently smoked tobacco, it can still affect his/her health</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que10:option0">
+            <value>Totally Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que10:option1">
+            <value>Agree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que10:option2">
+            <value>Disagree</value>
+          </text>
+          <text id="/data/awareness_about_second_hand_smoke/awareness_que10:option3">
+            <value>Totally Disagree</value>
+          </text>
+          <text id="/data/often_do_the_following:label">
+            <value>In the last 3 months, how often did you do the following</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que1:label">
+            <value>Move away from your husband when he was smoking</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que1:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que1:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que1:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que1:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que1:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que1:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que2:label">
+            <value>Move your child/children or others away from your husband when he was smoking</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que2:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que2:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que2:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que2:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que2:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que2:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que3:label">
+            <value>Ask your husband to put out his cigarettes when you were around him</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que3:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que3:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que3:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que3:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que3:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que3:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que4:label">
+            <value>Ask your husband to put out his cigarettes when your child/children or other people were around him</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que4:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que4:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que4:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que4:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que4:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que4:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que5:label">
+            <value>Ask your husband to stop smoking at home</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que5:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que5:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que5:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que5:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que5:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que5:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que6:label">
+            <value>Ask your husband to smoke outside</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que6:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que6:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que6:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que6:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que6:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que6:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que7:label">
+            <value>Ask your husband to help you request your family members to put out his/her cigarette or smoke outside</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que7:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que7:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que7:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que7:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que7:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que7:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que8:label">
+            <value>Move away from your family member when he was smoking</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que8:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que8:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que8:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que8:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que8:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que8:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que9:label">
+            <value>Move your child/children or others away from your family member when he was smoking</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que9:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que9:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que9:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que9:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que9:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que9:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que10:label">
+            <value>Ask your family member to put out his cigarettes when he/she was around you</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que10:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que10:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que10:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que10:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que10:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que10:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que11:label">
+            <value>Ask your family member to put out his cigarettes when he/she was around your child/children</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que11:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que11:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que11:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que11:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que11:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que11:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que12:label">
+            <value>Ask your family members to stop smoking at home</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que12:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que12:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que12:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que12:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que12:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que12:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que13:label">
+            <value>Ask your family members to smoke outside</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que13:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que13:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que13:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que13:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que13:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que13:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que14:label">
+            <value>Ask your family members to help you request your husband to put out his cigarette or smoke outside</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que14:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que14:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que14:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que14:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que14:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que14:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que15:label">
+            <value>Ask visitors to smoke outside your home, if they need to</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que15:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que15:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que15:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que15:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que15:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que15:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que16:label">
+            <value>Ask your husband to request visitors to smoke outside home, if they need to</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que16:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que16:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que16:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que16:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que16:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que16:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que17:label">
+            <value>Ask your family members to request visitors to smoke outside home, if they need to</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que17:option0">
+            <value>Always</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que17:option1">
+            <value>Usually</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que17:option2">
+            <value>Sometimes</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que17:option3">
+            <value>Seldom</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que17:option4">
+            <value>Never</value>
+          </text>
+          <text id="/data/often_do_the_following/general_que17:option5">
+            <value>N/A</value>
+          </text>
+          <text id="/data/readiness_to_change:label">
+            <value>Readiness to change</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que1:label">
+            <value>How important has it been for you that your husband reduces/ceases smoking at home?</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que1:hint">
+            <value>1 - Not important at all to 10 - extremely important</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que1:option0">
+            <value>1 Not important at all</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que1:option1">
+            <value>2</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que1:option2">
+            <value>3</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que1:option3">
+            <value>4</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que1:option4">
+            <value>5</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que1:option5">
+            <value>6</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que1:option6">
+            <value>7</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que1:option7">
+            <value>8</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que1:option8">
+            <value>9</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que1:option9">
+            <value>10 Extremely important</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que2:label">
+            <value>How ready/willing has your husband been to reduce/cease smoking at home?</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que2:hint">
+            <value>1 - Not willing at all to 10 - extremely willing</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que2:option0">
+            <value>1 - Not willing at all</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que2:option1">
+            <value>2</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que2:option2">
+            <value>3</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que2:option3">
+            <value>4</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que2:option4">
+            <value>5</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que2:option5">
+            <value>6</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que2:option6">
+            <value>7</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que2:option7">
+            <value>8</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que2:option8">
+            <value>9</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que2:option9">
+            <value>10 - extremely willing</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que3:label">
+            <value>How confident have you felt about negotiating change (reduce/cease smoking at home) with your husband?</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que3:hint">
+            <value>1 - Not confident at all to 10 - Extremely confident</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que3:option0">
+            <value>1 - Not confident at all </value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que3:option1">
+            <value>2</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que3:option2">
+            <value>3</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que3:option3">
+            <value>4</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que3:option4">
+            <value>5</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que3:option5">
+            <value>6</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que3:option6">
+            <value>7</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que3:option7">
+            <value>8</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que3:option8">
+            <value>9</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que3:option9">
+            <value>10 - Extremely confident</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que4:label">
+            <value>How confident have you felt about negotiating change (reduce/cease smoking at home) with your family members?</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que4:hint">
+            <value>1 - Not confident at all to 10 - Extremely confident</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que4:option0">
+            <value>1 - Not confident at all </value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que4:option1">
+            <value>2</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que4:option2">
+            <value>3</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que4:option3">
+            <value>4</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que4:option4">
+            <value>5</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que4:option5">
+            <value>6</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que4:option6">
+            <value>7</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que4:option7">
+            <value>8</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que4:option8">
+            <value>9</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que4:option9">
+            <value>10 - Extremely confident</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que5:label">
+            <value>Has your husband tried to make these changes (reduce/cease smoking at home)?</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que5:hint">
+            <value>1 - No change at all to 10 - significant change/already part of his lifestyle</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que5:option0">
+            <value>1 - No change at all</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que5:option1">
+            <value>2</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que5:option2">
+            <value>3</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que5:option3">
+            <value>4</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que5:option4">
+            <value>5</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que5:option5">
+            <value>6</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que5:option6">
+            <value>7</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que5:option7">
+            <value>8</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que5:option8">
+            <value>9</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que5:option9">
+            <value>10 - significant change/already part of his lifestyle</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que6:label">
+            <value>Has your husband continued to maintain these changes (reduce/cease smoking at home)?</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que6:hint">
+            <value>1 - No change at all to 10 - Maintained</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que6:option0">
+            <value>1 - No change at all</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que6:option1">
+            <value>2</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que6:option2">
+            <value>3</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que6:option3">
+            <value>4</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que6:option4">
+            <value>5</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que6:option5">
+            <value>6</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que6:option6">
+            <value>7</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que6:option7">
+            <value>8</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que6:option8">
+            <value>9</value>
+          </text>
+          <text id="/data/readiness_to_change/rc_que6:option9">
+            <value>10 - Maintained</value>
+          </text>
+          <text id="/data/stages_of_change:label">
+            <value>Currently, which of these statements best describes the stage of change your husband is at</value>
+          </text>
+          <text id="/data/stages_of_change:hint">
+            <value>Select one that is most appropriate</value>
+          </text>
+          <text id="/data/stages_of_change:option0">
+            <value>Pre-contemplation- My husband is currently not considering change (changing his behaviour of smoking at home)</value>
+          </text>
+          <text id="/data/stages_of_change:option1">
+            <value>Contemplation- My husband is undecided/ ambivalent (about whether or not to change his behaviour of smoking at home)</value>
+          </text>
+          <text id="/data/stages_of_change:option2">
+            <value>Preparation- My husband has had some experience with change and has made a plan (to reduce/stop his behaviour of smoking at home)</value>
+          </text>
+          <text id="/data/stages_of_change:option3">
+            <value>Action- My husband is practicing the new behaviour (has actually stopped smoking at home for a few days now)</value>
+          </text>
+          <text id="/data/stages_of_change:option4">
+            <value>Maintenance- My husband has continued his commitment to practicing the new behaviour (of NOT smoking at home for couple of months or more)</value>
+          </text>
+          <text id="/data/stages_of_change:option5">
+            <value>Relapse- My husband had stopped smoking at home but unfortunately resumed his old behaviour</value>
+          </text>
+          <text id="/data/saliva_cotinine:label">
+            <value>Saliva Cotinine</value>
+          </text>
+          <text id="/data/saliva_cotinine/sc_que1:label">
+            <value>Stayed with husband in the last 3- 7 days</value>
+          </text>
+          <text id="/data/saliva_cotinine/sc_que1:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/saliva_cotinine/sc_que1:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/saliva_cotinine/sc_que2:label">
+            <value>Cotinine Sample Collected</value>
+          </text>
+          <text id="/data/saliva_cotinine/sc_que2:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/saliva_cotinine/sc_que2:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/urine_cotinine:label">
+            <value>Urine Cotinine</value>
+          </text>
+          <text id="/data/urine_cotinine/uc_que1:label">
+            <value>Stayed with husband in the last 3- 7 days</value>
+          </text>
+          <text id="/data/urine_cotinine/uc_que1:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/urine_cotinine/uc_que1:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/urine_cotinine/uc_que2:label">
+            <value>Cotinine Sample Collected</value>
+          </text>
+          <text id="/data/urine_cotinine/uc_que2:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/urine_cotinine/uc_que2:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/delivery_details:label">
+            <value>Delivery Details</value>
+          </text>
+          <text id="/data/delivery_details/dd_que1:label">
+            <value>Where is the delivery likely to happen?</value>
+          </text>
+          <text id="/data/delivery_details/dd_que1:hint">
+            <value>please write the name of the hospital</value>
+          </text>
+          <text id="/data/delivery_details/dd_que2:label">
+            <value>Address of hospital with landmark</value>
+          </text>
+          <text id="/data/delivery_details/dd_que3:label">
+            <value>Inform pregnant woman that she will be contacted a week prior to the date of delivery</value>
+          </text>
+          <text id="/data/delivery_details/dd_que3:option0">
+            <value>Informed</value>
+          </text>
+          <text id="/data/delivery_details/dd_que4:label">
+            <value>Inform pregnant woman that she will be provided with monetary incentive for letting the team know about the delivery within 24 hours</value>
+          </text>
+          <text id="/data/delivery_details/dd_que4:option0">
+            <value>Informed</value>
+          </text>
+          <text id="/data/delivery_details/dd_que5:label">
+            <value>Inform pregnant woman that the team will visit her soon after delivery to assess the health of the new born</value>
+          </text>
+          <text id="/data/delivery_details/dd_que5:option0">
+            <value>Informed</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/interview_details/date_of_interview" type="date"/>
+      <bind nodeset="/data/interview_details/participant_id" type="string"/>
+      <bind nodeset="/data/interview_details/name" type="string"/>
+      <bind nodeset="/data/interview_details/phone_no" type="string" constraint="(regex(., &quot;^.{10,13}$&quot;))" jr:constraintMsg="jr:itext('/data/interview_details/phone_no:constraintMsg')"/>
+      <bind nodeset="/data/interview_details/husbands_phone_no" type="string" constraint="(regex(., &quot;^.{10,13}$&quot;))" jr:constraintMsg="jr:itext('/data/interview_details/husbands_phone_no:constraintMsg')"/>
+      <bind nodeset="/data/interview_details/interviewer_id" type="select1"/>
+      <bind nodeset="/data/text1" type="string" readonly="true()"/>
+      <bind nodeset="/data/gestational_age" type="int"/>
+      <bind nodeset="/data/t1/date_of_ultrasound" type="date"/>
+      <bind nodeset="/data/t1/weight" type="decimal"/>
+      <bind nodeset="/data/t1/gestational_age" type="int"/>
+      <bind nodeset="/data/t1/any_other_congenital_abnormalities" type="select1"/>
+      <bind nodeset="/data/t1/if_yes_specify" type="string"/>
+      <bind nodeset="/data/t2/date_of_ultrasound" type="date"/>
+      <bind nodeset="/data/t2/weight" type="decimal"/>
+      <bind nodeset="/data/t2/gestational_age" type="int"/>
+      <bind nodeset="/data/t2/any_other_congenital_abnormalities" type="select1"/>
+      <bind nodeset="/data/t2/if_yes_specify" type="string"/>
+      <bind nodeset="/data/pregnancy_complications/pregnancy_complications" type="select"/>
+      <bind nodeset="/data/pregnancy_complications/any_other_risk_please_specify" type="string"/>
+      <bind nodeset="/data/edd" type="string"/>
+      <bind nodeset="/data/husbands_smoking_pattern/hsp_que1" type="select1"/>
+      <bind nodeset="/data/husbands_smoking_pattern/hsp_que1_1" type="string"/>
+      <bind nodeset="/data/husbands_smoking_pattern/hsp_que2" type="select1"/>
+      <bind nodeset="/data/husbands_smoking_pattern/hsp_que3" type="select1"/>
+      <bind nodeset="/data/husbands_smoking_pattern/hsp_que4" type="int"/>
+      <bind nodeset="/data/husbands_smoking_pattern/hsp_que5" type="select1"/>
+      <bind nodeset="/data/husbands_smoking_pattern/hsp_que6" type="select1"/>
+      <bind nodeset="/data/family_smoking_pattern/fsp_que1" type="string"/>
+      <bind nodeset="/data/family_smoking_pattern/fsp_que1_1" type="select1"/>
+      <bind nodeset="/data/awareness_about_second_hand_smoke/awareness_que1" type="select1"/>
+      <bind nodeset="/data/awareness_about_second_hand_smoke/awareness_que2" type="select1"/>
+      <bind nodeset="/data/awareness_about_second_hand_smoke/awareness_que3" type="select1"/>
+      <bind nodeset="/data/awareness_about_second_hand_smoke/awareness_que4" type="select1"/>
+      <bind nodeset="/data/awareness_about_second_hand_smoke/awareness_que5" type="select1"/>
+      <bind nodeset="/data/awareness_about_second_hand_smoke/awareness_que6" type="select1"/>
+      <bind nodeset="/data/awareness_about_second_hand_smoke/awareness_que7" type="select1"/>
+      <bind nodeset="/data/awareness_about_second_hand_smoke/awareness_que8" type="select1"/>
+      <bind nodeset="/data/awareness_about_second_hand_smoke/awareness_que9" type="select1"/>
+      <bind nodeset="/data/awareness_about_second_hand_smoke/awareness_que10" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que1" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que2" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que3" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que4" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que5" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que6" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que7" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que8" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que9" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que10" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que11" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que12" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que13" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que14" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que15" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que16" type="select1"/>
+      <bind nodeset="/data/often_do_the_following/general_que17" type="select1"/>
+      <bind nodeset="/data/readiness_to_change/rc_que1" type="select1"/>
+      <bind nodeset="/data/readiness_to_change/rc_que2" type="select1"/>
+      <bind nodeset="/data/readiness_to_change/rc_que3" type="select1"/>
+      <bind nodeset="/data/readiness_to_change/rc_que4" type="select1"/>
+      <bind nodeset="/data/readiness_to_change/rc_que5" type="select1"/>
+      <bind nodeset="/data/readiness_to_change/rc_que6" type="select1"/>
+      <bind nodeset="/data/stages_of_change" type="select1"/>
+      <bind nodeset="/data/saliva_cotinine/sc_que1" type="select1"/>
+      <bind nodeset="/data/saliva_cotinine/sc_que2" type="select1"/>
+      <bind nodeset="/data/urine_cotinine/uc_que1" type="select1"/>
+      <bind nodeset="/data/urine_cotinine/uc_que2" type="select1"/>
+      <bind nodeset="/data/delivery_details/dd_que1" type="string"/>
+      <bind nodeset="/data/delivery_details/dd_que2" type="string"/>
+      <bind nodeset="/data/delivery_details/dd_que3" type="select"/>
+      <bind nodeset="/data/delivery_details/dd_que4" type="select"/>
+      <bind nodeset="/data/delivery_details/dd_que5" type="select"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/interview_details:label')"/>
+      <input ref="/data/interview_details/date_of_interview">
+        <label ref="jr:itext('/data/interview_details/date_of_interview:label')"/>
+        <hint ref="jr:itext('/data/interview_details/date_of_interview:hint')"/>
+      </input>
+      <input ref="/data/interview_details/participant_id">
+        <label ref="jr:itext('/data/interview_details/participant_id:label')"/>
+      </input>
+      <input ref="/data/interview_details/name">
+        <label ref="jr:itext('/data/interview_details/name:label')"/>
+        <hint ref="jr:itext('/data/interview_details/name:hint')"/>
+      </input>
+      <input ref="/data/interview_details/phone_no">
+        <label ref="jr:itext('/data/interview_details/phone_no:label')"/>
+        <hint ref="jr:itext('/data/interview_details/phone_no:hint')"/>
+      </input>
+      <input ref="/data/interview_details/husbands_phone_no">
+        <label ref="jr:itext('/data/interview_details/husbands_phone_no:label')"/>
+      </input>
+      <select1 ref="/data/interview_details/interviewer_id">
+        <label ref="jr:itext('/data/interview_details/interviewer_id:label')"/>
+        <hint ref="jr:itext('/data/interview_details/interviewer_id:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/interview_details/interviewer_id:option0')"/>
+          <value>SM</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interview_details/interviewer_id:option1')"/>
+          <value>AD</value>
+        </item>
+      </select1>
+    </group>
+    <input ref="/data/text1">
+      <label ref="jr:itext('/data/text1:label')"/>
+      <hint ref="jr:itext('/data/text1:hint')"/>
+    </input>
+    <input ref="/data/gestational_age">
+      <label ref="jr:itext('/data/gestational_age:label')"/>
+      <hint ref="jr:itext('/data/gestational_age:hint')"/>
+    </input>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/t1:label')"/>
+      <input ref="/data/t1/date_of_ultrasound">
+        <label ref="jr:itext('/data/t1/date_of_ultrasound:label')"/>
+      </input>
+      <input ref="/data/t1/weight">
+        <label ref="jr:itext('/data/t1/weight:label')"/>
+      </input>
+      <input ref="/data/t1/gestational_age">
+        <label ref="jr:itext('/data/t1/gestational_age:label')"/>
+      </input>
+      <select1 ref="/data/t1/any_other_congenital_abnormalities">
+        <label ref="jr:itext('/data/t1/any_other_congenital_abnormalities:label')"/>
+        <item>
+          <label ref="jr:itext('/data/t1/any_other_congenital_abnormalities:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/t1/any_other_congenital_abnormalities:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/t1/if_yes_specify">
+        <label ref="jr:itext('/data/t1/if_yes_specify:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/t2:label')"/>
+      <input ref="/data/t2/date_of_ultrasound">
+        <label ref="jr:itext('/data/t2/date_of_ultrasound:label')"/>
+        <hint ref="jr:itext('/data/t2/date_of_ultrasound:hint')"/>
+      </input>
+      <input ref="/data/t2/weight">
+        <label ref="jr:itext('/data/t2/weight:label')"/>
+        <hint ref="jr:itext('/data/t2/weight:hint')"/>
+      </input>
+      <input ref="/data/t2/gestational_age">
+        <label ref="jr:itext('/data/t2/gestational_age:label')"/>
+      </input>
+      <select1 ref="/data/t2/any_other_congenital_abnormalities">
+        <label ref="jr:itext('/data/t2/any_other_congenital_abnormalities:label')"/>
+        <item>
+          <label ref="jr:itext('/data/t2/any_other_congenital_abnormalities:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/t2/any_other_congenital_abnormalities:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/t2/if_yes_specify">
+        <label ref="jr:itext('/data/t2/if_yes_specify:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/pregnancy_complications:label')"/>
+      <select ref="/data/pregnancy_complications/pregnancy_complications">
+        <label ref="jr:itext('/data/pregnancy_complications/pregnancy_complications:label')"/>
+        <hint ref="jr:itext('/data/pregnancy_complications/pregnancy_complications:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/pregnancy_complications/pregnancy_complications:option0')"/>
+          <value>None</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/pregnancy_complications/pregnancy_complications:option1')"/>
+          <value>Gestational Diabetes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/pregnancy_complications/pregnancy_complications:option2')"/>
+          <value>Hypertension</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/pregnancy_complications/pregnancy_complications:option3')"/>
+          <value>PET</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/pregnancy_complications/pregnancy_complications:option4')"/>
+          <value>Anaemia</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/pregnancy_complications/pregnancy_complications:option5')"/>
+          <value>Miscarriage</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/pregnancy_complications/pregnancy_complications:option6')"/>
+          <value>MTP</value>
+        </item>
+      </select>
+      <input ref="/data/pregnancy_complications/any_other_risk_please_specify">
+        <label ref="jr:itext('/data/pregnancy_complications/any_other_risk_please_specify:label')"/>
+      </input>
+    </group>
+    <input ref="/data/edd">
+      <label ref="jr:itext('/data/edd:label')"/>
+    </input>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/husbands_smoking_pattern:label')"/>
+      <select1 ref="/data/husbands_smoking_pattern/hsp_que1">
+        <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que1:label')"/>
+        <hint ref="jr:itext('/data/husbands_smoking_pattern/hsp_que1:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que1:option0')"/>
+          <value>Daily</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que1:option1')"/>
+          <value>1-3 days/week</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que1:option2')"/>
+          <value>4-6 days/week</value>
+        </item>
+      </select1>
+      <input ref="/data/husbands_smoking_pattern/hsp_que1_1">
+        <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que1_1:label')"/>
+      </input>
+      <select1 ref="/data/husbands_smoking_pattern/hsp_que2">
+        <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que2:label')"/>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que2:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que2:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 ref="/data/husbands_smoking_pattern/hsp_que3">
+        <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que3:label')"/>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que3:option0')"/>
+          <value>Was it more than last week</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que3:option1')"/>
+          <value>Was it less than last week</value>
+        </item>
+      </select1>
+      <input ref="/data/husbands_smoking_pattern/hsp_que4">
+        <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que4:label')"/>
+        <hint ref="jr:itext('/data/husbands_smoking_pattern/hsp_que4:hint')"/>
+      </input>
+      <select1 ref="/data/husbands_smoking_pattern/hsp_que5">
+        <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que5:label')"/>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que5:option0')"/>
+          <value>Yes, completely stopped</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que5:option1')"/>
+          <value>Yes, to a great extent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que5:option2')"/>
+          <value>Yes, to a little extent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que5:option3')"/>
+          <value>Not at all</value>
+        </item>
+      </select1>
+      <select1 ref="/data/husbands_smoking_pattern/hsp_que6">
+        <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que6:label')"/>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que6:option0')"/>
+          <value>Yes, completely stopped</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que6:option1')"/>
+          <value>Yes, to a great extent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que6:option2')"/>
+          <value>Yes, to a little extent</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que6:option3')"/>
+          <value>Not at all</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/husbands_smoking_pattern/hsp_que6:option4')"/>
+          <value>Not Sure</value>
+        </item>
+      </select1>
+    </group>
+    <group>
+      <label ref="jr:itext('/data/family_smoking_pattern:label')"/>
+      <repeat nodeset="/data/family_smoking_pattern">
+        <group appearance="field-list">
+          <input ref="/data/family_smoking_pattern/fsp_que1">
+            <label ref="jr:itext('/data/family_smoking_pattern/fsp_que1:label')"/>
+            <hint ref="jr:itext('/data/family_smoking_pattern/fsp_que1:hint')"/>
+          </input>
+          <select1 ref="/data/family_smoking_pattern/fsp_que1_1">
+            <label ref="jr:itext('/data/family_smoking_pattern/fsp_que1_1:label')"/>
+            <item>
+              <label ref="jr:itext('/data/family_smoking_pattern/fsp_que1_1:option0')"/>
+              <value>Yes, completely stopped</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/family_smoking_pattern/fsp_que1_1:option1')"/>
+              <value>Yes, to a great extent</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/family_smoking_pattern/fsp_que1_1:option2')"/>
+              <value>Yes, to a little extent</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/family_smoking_pattern/fsp_que1_1:option3')"/>
+              <value>Not at all</value>
+            </item>
+            <item>
+              <label ref="jr:itext('/data/family_smoking_pattern/fsp_que1_1:option4')"/>
+              <value>Not sure</value>
+            </item>
+          </select1>
+        </group>
+      </repeat>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/awareness_about_second_hand_smoke:label')"/>
+      <select1 ref="/data/awareness_about_second_hand_smoke/awareness_que1">
+        <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que1:option0')"/>
+          <value>Totally Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que1:option1')"/>
+          <value>Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que1:option2')"/>
+          <value>Disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que1:option3')"/>
+          <value>Totally Disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/awareness_about_second_hand_smoke/awareness_que2">
+        <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que2:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que2:option0')"/>
+          <value>Totally Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que2:option1')"/>
+          <value>Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que2:option2')"/>
+          <value>Disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que2:option3')"/>
+          <value>Totally Disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/awareness_about_second_hand_smoke/awareness_que3">
+        <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que3:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que3:option0')"/>
+          <value>Totally Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que3:option1')"/>
+          <value>Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que3:option2')"/>
+          <value>Disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que3:option3')"/>
+          <value>Totally Disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/awareness_about_second_hand_smoke/awareness_que4">
+        <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que4:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que4:option0')"/>
+          <value>Totally Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que4:option1')"/>
+          <value>Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que4:option2')"/>
+          <value>Disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que4:option3')"/>
+          <value>Totally Disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/awareness_about_second_hand_smoke/awareness_que5">
+        <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que5:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que5:option0')"/>
+          <value>Totally Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que5:option1')"/>
+          <value>Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que5:option2')"/>
+          <value>Disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que5:option3')"/>
+          <value>Totally Disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/awareness_about_second_hand_smoke/awareness_que6">
+        <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que6:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que6:option0')"/>
+          <value>Totally Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que6:option1')"/>
+          <value>Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que6:option2')"/>
+          <value>Disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que6:option3')"/>
+          <value>Totally Disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/awareness_about_second_hand_smoke/awareness_que7">
+        <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que7:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que7:option0')"/>
+          <value>Totally Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que7:option1')"/>
+          <value>Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que7:option2')"/>
+          <value>Disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que7:option3')"/>
+          <value>Totally Disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/awareness_about_second_hand_smoke/awareness_que8">
+        <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que8:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que8:option0')"/>
+          <value>Totally Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que8:option1')"/>
+          <value>Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que8:option2')"/>
+          <value>Disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que8:option3')"/>
+          <value>Totally Disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/awareness_about_second_hand_smoke/awareness_que9">
+        <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que9:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que9:option0')"/>
+          <value>Totally Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que9:option1')"/>
+          <value>Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que9:option2')"/>
+          <value>Disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que9:option3')"/>
+          <value>Totally Disagree</value>
+        </item>
+      </select1>
+      <select1 ref="/data/awareness_about_second_hand_smoke/awareness_que10">
+        <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que10:label')"/>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que10:option0')"/>
+          <value>Totally Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que10:option1')"/>
+          <value>Agree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que10:option2')"/>
+          <value>Disagree</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/awareness_about_second_hand_smoke/awareness_que10:option3')"/>
+          <value>Totally Disagree</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/often_do_the_following:label')"/>
+      <select1 ref="/data/often_do_the_following/general_que1">
+        <label ref="jr:itext('/data/often_do_the_following/general_que1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que1:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que1:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que1:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que1:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que1:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que1:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que2">
+        <label ref="jr:itext('/data/often_do_the_following/general_que2:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que2:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que2:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que2:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que2:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que2:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que2:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que3">
+        <label ref="jr:itext('/data/often_do_the_following/general_que3:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que3:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que3:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que3:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que3:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que3:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que3:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que4">
+        <label ref="jr:itext('/data/often_do_the_following/general_que4:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que4:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que4:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que4:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que4:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que4:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que4:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que5">
+        <label ref="jr:itext('/data/often_do_the_following/general_que5:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que5:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que5:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que5:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que5:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que5:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que5:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que6">
+        <label ref="jr:itext('/data/often_do_the_following/general_que6:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que6:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que6:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que6:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que6:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que6:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que6:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que7">
+        <label ref="jr:itext('/data/often_do_the_following/general_que7:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que7:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que7:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que7:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que7:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que7:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que7:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que8">
+        <label ref="jr:itext('/data/often_do_the_following/general_que8:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que8:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que8:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que8:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que8:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que8:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que8:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que9">
+        <label ref="jr:itext('/data/often_do_the_following/general_que9:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que9:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que9:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que9:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que9:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que9:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que9:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que10">
+        <label ref="jr:itext('/data/often_do_the_following/general_que10:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que10:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que10:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que10:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que10:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que10:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que10:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que11">
+        <label ref="jr:itext('/data/often_do_the_following/general_que11:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que11:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que11:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que11:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que11:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que11:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que11:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que12">
+        <label ref="jr:itext('/data/often_do_the_following/general_que12:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que12:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que12:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que12:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que12:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que12:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que12:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que13">
+        <label ref="jr:itext('/data/often_do_the_following/general_que13:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que13:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que13:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que13:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que13:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que13:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que13:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que14">
+        <label ref="jr:itext('/data/often_do_the_following/general_que14:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que14:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que14:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que14:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que14:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que14:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que14:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que15">
+        <label ref="jr:itext('/data/often_do_the_following/general_que15:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que15:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que15:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que15:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que15:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que15:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que15:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que16">
+        <label ref="jr:itext('/data/often_do_the_following/general_que16:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que16:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que16:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que16:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que16:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que16:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que16:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+      <select1 ref="/data/often_do_the_following/general_que17">
+        <label ref="jr:itext('/data/often_do_the_following/general_que17:label')"/>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que17:option0')"/>
+          <value>Always</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que17:option1')"/>
+          <value>Usually</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que17:option2')"/>
+          <value>Sometimes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que17:option3')"/>
+          <value>Seldom</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que17:option4')"/>
+          <value>Never</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/often_do_the_following/general_que17:option5')"/>
+          <value>N/A</value>
+        </item>
+      </select1>
+    </group>
+    <group>
+      <label ref="jr:itext('/data/readiness_to_change:label')"/>
+      <select1 ref="/data/readiness_to_change/rc_que1">
+        <label ref="jr:itext('/data/readiness_to_change/rc_que1:label')"/>
+        <hint ref="jr:itext('/data/readiness_to_change/rc_que1:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que1:option0')"/>
+          <value>1 Not important at all</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que1:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que1:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que1:option3')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que1:option4')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que1:option5')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que1:option6')"/>
+          <value>7</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que1:option7')"/>
+          <value>8</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que1:option8')"/>
+          <value>9</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que1:option9')"/>
+          <value>10 Extremely important</value>
+        </item>
+      </select1>
+      <select1 ref="/data/readiness_to_change/rc_que2">
+        <label ref="jr:itext('/data/readiness_to_change/rc_que2:label')"/>
+        <hint ref="jr:itext('/data/readiness_to_change/rc_que2:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que2:option0')"/>
+          <value>1 - Not willing at all</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que2:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que2:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que2:option3')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que2:option4')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que2:option5')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que2:option6')"/>
+          <value>7</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que2:option7')"/>
+          <value>8</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que2:option8')"/>
+          <value>9</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que2:option9')"/>
+          <value>10 - extremely willing</value>
+        </item>
+      </select1>
+      <select1 ref="/data/readiness_to_change/rc_que3">
+        <label ref="jr:itext('/data/readiness_to_change/rc_que3:label')"/>
+        <hint ref="jr:itext('/data/readiness_to_change/rc_que3:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que3:option0')"/>
+          <value>1 - Not confident at all </value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que3:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que3:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que3:option3')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que3:option4')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que3:option5')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que3:option6')"/>
+          <value>7</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que3:option7')"/>
+          <value>8</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que3:option8')"/>
+          <value>9</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que3:option9')"/>
+          <value>10 - Extremely confident</value>
+        </item>
+      </select1>
+      <select1 ref="/data/readiness_to_change/rc_que4">
+        <label ref="jr:itext('/data/readiness_to_change/rc_que4:label')"/>
+        <hint ref="jr:itext('/data/readiness_to_change/rc_que4:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que4:option0')"/>
+          <value>1 - Not confident at all </value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que4:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que4:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que4:option3')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que4:option4')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que4:option5')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que4:option6')"/>
+          <value>7</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que4:option7')"/>
+          <value>8</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que4:option8')"/>
+          <value>9</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que4:option9')"/>
+          <value>10 - Extremely confident</value>
+        </item>
+      </select1>
+      <select1 ref="/data/readiness_to_change/rc_que5">
+        <label ref="jr:itext('/data/readiness_to_change/rc_que5:label')"/>
+        <hint ref="jr:itext('/data/readiness_to_change/rc_que5:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que5:option0')"/>
+          <value>1 - No change at all</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que5:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que5:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que5:option3')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que5:option4')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que5:option5')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que5:option6')"/>
+          <value>7</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que5:option7')"/>
+          <value>8</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que5:option8')"/>
+          <value>9</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que5:option9')"/>
+          <value>10 - significant change/already part of his lifestyle</value>
+        </item>
+      </select1>
+      <select1 ref="/data/readiness_to_change/rc_que6">
+        <label ref="jr:itext('/data/readiness_to_change/rc_que6:label')"/>
+        <hint ref="jr:itext('/data/readiness_to_change/rc_que6:hint')"/>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que6:option0')"/>
+          <value>1 - No change at all</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que6:option1')"/>
+          <value>2</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que6:option2')"/>
+          <value>3</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que6:option3')"/>
+          <value>4</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que6:option4')"/>
+          <value>5</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que6:option5')"/>
+          <value>6</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que6:option6')"/>
+          <value>7</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que6:option7')"/>
+          <value>8</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que6:option8')"/>
+          <value>9</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/readiness_to_change/rc_que6:option9')"/>
+          <value>10 - Maintained</value>
+        </item>
+      </select1>
+    </group>
+    <select1 ref="/data/stages_of_change">
+      <label ref="jr:itext('/data/stages_of_change:label')"/>
+      <hint ref="jr:itext('/data/stages_of_change:hint')"/>
+      <item>
+        <label ref="jr:itext('/data/stages_of_change:option0')"/>
+        <value>Pre-contemplation- My husband is currently not considering change (changing his behaviour of smoking at home)</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/stages_of_change:option1')"/>
+        <value>Contemplation- My husband is undecided/ ambivalent (about whether or not to change his behaviour of smoking at home)</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/stages_of_change:option2')"/>
+        <value>Preparation- My husband has had some experience with change and has made a plan (to reduce/stop his behaviour of smoking at home)</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/stages_of_change:option3')"/>
+        <value>Action- My husband is practicing the new behaviour (has actually stopped smoking at home for a few days now)</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/stages_of_change:option4')"/>
+        <value>Maintenance- My husband has continued his commitment to practicing the new behaviour (of NOT smoking at home for couple of months or more)</value>
+      </item>
+      <item>
+        <label ref="jr:itext('/data/stages_of_change:option5')"/>
+        <value>Relapse- My husband had stopped smoking at home but unfortunately resumed his old behaviour</value>
+      </item>
+    </select1>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/saliva_cotinine:label')"/>
+      <select1 ref="/data/saliva_cotinine/sc_que1">
+        <label ref="jr:itext('/data/saliva_cotinine/sc_que1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/saliva_cotinine/sc_que1:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/saliva_cotinine/sc_que1:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 ref="/data/saliva_cotinine/sc_que2">
+        <label ref="jr:itext('/data/saliva_cotinine/sc_que2:label')"/>
+        <item>
+          <label ref="jr:itext('/data/saliva_cotinine/sc_que2:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/saliva_cotinine/sc_que2:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/urine_cotinine:label')"/>
+      <select1 ref="/data/urine_cotinine/uc_que1">
+        <label ref="jr:itext('/data/urine_cotinine/uc_que1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/urine_cotinine/uc_que1:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_cotinine/uc_que1:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <select1 ref="/data/urine_cotinine/uc_que2">
+        <label ref="jr:itext('/data/urine_cotinine/uc_que2:label')"/>
+        <item>
+          <label ref="jr:itext('/data/urine_cotinine/uc_que2:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/urine_cotinine/uc_que2:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/delivery_details:label')"/>
+      <input ref="/data/delivery_details/dd_que1">
+        <label ref="jr:itext('/data/delivery_details/dd_que1:label')"/>
+        <hint ref="jr:itext('/data/delivery_details/dd_que1:hint')"/>
+      </input>
+      <input ref="/data/delivery_details/dd_que2">
+        <label ref="jr:itext('/data/delivery_details/dd_que2:label')"/>
+      </input>
+      <select ref="/data/delivery_details/dd_que3">
+        <label ref="jr:itext('/data/delivery_details/dd_que3:label')"/>
+        <item>
+          <label ref="jr:itext('/data/delivery_details/dd_que3:option0')"/>
+          <value>Informed</value>
+        </item>
+      </select>
+      <select ref="/data/delivery_details/dd_que4">
+        <label ref="jr:itext('/data/delivery_details/dd_que4:label')"/>
+        <item>
+          <label ref="jr:itext('/data/delivery_details/dd_que4:option0')"/>
+          <value>Informed</value>
+        </item>
+      </select>
+      <select ref="/data/delivery_details/dd_que5">
+        <label ref="jr:itext('/data/delivery_details/dd_que5:label')"/>
+        <item>
+          <label ref="jr:itext('/data/delivery_details/dd_que5:option0')"/>
+          <value>Informed</value>
+        </item>
+      </select>
+    </group>
+  </h:body>
+</h:html>

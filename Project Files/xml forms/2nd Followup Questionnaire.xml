@@ -1,0 +1,579 @@
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:jr="http://openrosa.org/javarosa">
+  <h:head>
+    <h:title>2nd Followup Questionnaire</h:title>
+    <model>
+      <instance>
+        <data id="build_2nd-Followup-Questionnaire_1480679865">
+          <meta>
+            <instanceID/>
+          </meta>
+          <interview_details>
+            <date_of_interview/>
+            <study_id/>
+            <name/>
+            <phone_number/>
+            <husbands_phone_number/>
+            <interviewer_id/>
+          </interview_details>
+          <pregnancy_outcome>
+            <po_que1/>
+            <po_que1_1/>
+            <po_que2/>
+            <po_que3/>
+            <po_que4/>
+            <po_que4_1/>
+            <po_que5/>
+            <po_que5_1/>
+            <po_que6/>
+            <po_que7/>
+            <po_que8/>
+          </pregnancy_outcome>
+          <infant_health>
+            <ih_que1/>
+            <ih_que2/>
+            <ih_que3/>
+            <ih_que4/>
+            <ih_que5/>
+            <ih_que5_1/>
+          </infant_health>
+          <ultrasound_trimester_t1>
+            <ut_que1/>
+            <ut_que2/>
+            <ut_que3/>
+            <ut_que4/>
+            <ut_que4_1/>
+          </ultrasound_trimester_t1>
+          <ultrasound_trimester_t2>
+            <ut_que1/>
+            <ut_que2/>
+            <ut_que3/>
+            <ut_que4/>
+            <ut_que4_1/>
+          </ultrasound_trimester_t2>
+          <ultrasound_trimester_t3>
+            <ut_que1/>
+            <ut_que2/>
+            <ut_que3/>
+            <ut_que4/>
+            <ut_que4_1/>
+          </ultrasound_trimester_t3>
+        </data>
+      </instance>
+      <itext>
+        <translation lang="eng">
+          <text id="/data/interview_details:label">
+            <value>Interview Details</value>
+          </text>
+          <text id="/data/interview_details/date_of_interview:label">
+            <value>Date of interview</value>
+          </text>
+          <text id="/data/interview_details/study_id:label">
+            <value>Study ID</value>
+          </text>
+          <text id="/data/interview_details/name:label">
+            <value>Name</value>
+          </text>
+          <text id="/data/interview_details/phone_number:label">
+            <value>Phone Number</value>
+          </text>
+          <text id="/data/interview_details/husbands_phone_number:label">
+            <value>Husband's Phone Number</value>
+          </text>
+          <text id="/data/interview_details/interviewer_id:label">
+            <value>Interviewer ID</value>
+          </text>
+          <text id="/data/interview_details/interviewer_id:option0">
+            <value>SM</value>
+          </text>
+          <text id="/data/interview_details/interviewer_id:option1">
+            <value>AD</value>
+          </text>
+          <text id="/data/pregnancy_outcome:label">
+            <value>Pregnancy Outcome - From Health Records</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que1:label">
+            <value>Date of delivery</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que1:hint">
+            <value></value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que1_1:label">
+            <value>Time of delivery</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que2:label">
+            <value>Birth Outcome</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que2:option0">
+            <value>Live Birth</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que2:option1">
+            <value>Still Birth</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que2:option2">
+            <value>Early neonatal death</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que3:label">
+            <value>Nature of Delivery</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que3:option0">
+            <value>Normal</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que3:option1">
+            <value>Normal, forceps assisted</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que3:option2">
+            <value>Cesarean</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que4:label">
+            <value>If Ceasarean, Type of caesarean section</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que4:option0">
+            <value>Elective</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que4:option1">
+            <value>Emergency </value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que4_1:label">
+            <value>If Emergency, What's the reason</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que5:label">
+            <value>Gestational week at delivery</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que5:hint">
+            <value>in weeks based on LMP</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que5_1:label">
+            <value>Gestational week at delivery</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que5_1:hint">
+            <value>in weeks based on last ultrasound </value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que6:label">
+            <value>Birth Weight</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que6:hint">
+            <value>in decimals for grams</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que7:label">
+            <value>Height at birth</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que7:hint">
+            <value>in cm</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que8:label">
+            <value>Head Circumference</value>
+          </text>
+          <text id="/data/pregnancy_outcome/po_que8:hint">
+            <value>in cm</value>
+          </text>
+          <text id="/data/infant_health:label">
+            <value>Infant Health</value>
+          </text>
+          <text id="/data/infant_health/ih_que1:label">
+            <value>Are there any birth defects?</value>
+          </text>
+          <text id="/data/infant_health/ih_que1:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/infant_health/ih_que1:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/infant_health/ih_que2:label">
+            <value>If Yes, Please specify</value>
+          </text>
+          <text id="/data/infant_health/ih_que3:label">
+            <value>Need for NICU care</value>
+          </text>
+          <text id="/data/infant_health/ih_que3:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/infant_health/ih_que3:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/infant_health/ih_que4:label">
+            <value>If Yes, Duration of NICU care</value>
+          </text>
+          <text id="/data/infant_health/ih_que4:hint">
+            <value>in decimal for days and hours</value>
+          </text>
+          <text id="/data/infant_health/ih_que5:label">
+            <value>Any complications</value>
+          </text>
+          <text id="/data/infant_health/ih_que5:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/infant_health/ih_que5:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/infant_health/ih_que5_1:label">
+            <value>If yes, Please specify</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t1:label">
+            <value>Ultrasound Trimester T1 (if not filled in 1st followup)</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t1/ut_que1:label">
+            <value>Date of Ultrasound T1</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t1/ut_que2:label">
+            <value>Weight</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t1/ut_que2:hint">
+            <value>in decimal for grams</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t1/ut_que3:label">
+            <value>Gestational age</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t1/ut_que3:hint">
+            <value>in weeks</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t1/ut_que4:label">
+            <value>Any other congenital abnormalities</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t1/ut_que4:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t1/ut_que4:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t1/ut_que4_1:label">
+            <value>If yes, Please specify</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t2:label">
+            <value>Ultrasound Trimester T2 (if not filled in 1st followup)</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t2/ut_que1:label">
+            <value>Date of Ultrasound T2</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t2/ut_que2:label">
+            <value>Weight</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t2/ut_que2:hint">
+            <value>in decimal for grams</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t2/ut_que3:label">
+            <value>Gestational Age</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t2/ut_que3:hint">
+            <value>in weeks</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t2/ut_que4:label">
+            <value>Any other congenital abnormalities</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t2/ut_que4:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t2/ut_que4:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t2/ut_que4_1:label">
+            <value>If yes, Please specify,</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t3:label">
+            <value>Ultrasound Trimester T3 (to be filled)</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t3/ut_que1:label">
+            <value>Date of Ultrasound T3</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t3/ut_que2:label">
+            <value>Weight</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t3/ut_que2:hint">
+            <value>in decimal for grams</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t3/ut_que3:label">
+            <value>Gestational Age</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t3/ut_que3:hint">
+            <value>in weeks</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t3/ut_que4:label">
+            <value>Any other congenital abnormalities</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t3/ut_que4:option0">
+            <value>Yes</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t3/ut_que4:option1">
+            <value>No</value>
+          </text>
+          <text id="/data/ultrasound_trimester_t3/ut_que4_1:label">
+            <value>If yes, Please specify,</value>
+          </text>
+        </translation>
+      </itext>
+      <bind nodeset="/data/meta/instanceID" type="string" readonly="true()" calculate="concat('uuid:', uuid())"/>
+      <bind nodeset="/data/interview_details/date_of_interview" type="date"/>
+      <bind nodeset="/data/interview_details/study_id" type="string"/>
+      <bind nodeset="/data/interview_details/name" type="string"/>
+      <bind nodeset="/data/interview_details/phone_number" type="string"/>
+      <bind nodeset="/data/interview_details/husbands_phone_number" type="string"/>
+      <bind nodeset="/data/interview_details/interviewer_id" type="select1"/>
+      <bind nodeset="/data/pregnancy_outcome/po_que1" type="date"/>
+      <bind nodeset="/data/pregnancy_outcome/po_que1_1" type="string"/>
+      <bind nodeset="/data/pregnancy_outcome/po_que2" type="select1"/>
+      <bind nodeset="/data/pregnancy_outcome/po_que3" type="select1"/>
+      <bind nodeset="/data/pregnancy_outcome/po_que4" type="select1"/>
+      <bind nodeset="/data/pregnancy_outcome/po_que4_1" type="string"/>
+      <bind nodeset="/data/pregnancy_outcome/po_que5" type="int"/>
+      <bind nodeset="/data/pregnancy_outcome/po_que5_1" type="int"/>
+      <bind nodeset="/data/pregnancy_outcome/po_que6" type="decimal"/>
+      <bind nodeset="/data/pregnancy_outcome/po_que7" type="int"/>
+      <bind nodeset="/data/pregnancy_outcome/po_que8" type="int"/>
+      <bind nodeset="/data/infant_health/ih_que1" type="select1"/>
+      <bind nodeset="/data/infant_health/ih_que2" type="string"/>
+      <bind nodeset="/data/infant_health/ih_que3" type="select1"/>
+      <bind nodeset="/data/infant_health/ih_que4" type="decimal"/>
+      <bind nodeset="/data/infant_health/ih_que5" type="select1"/>
+      <bind nodeset="/data/infant_health/ih_que5_1" type="string"/>
+      <bind nodeset="/data/ultrasound_trimester_t1/ut_que1" type="date"/>
+      <bind nodeset="/data/ultrasound_trimester_t1/ut_que2" type="decimal"/>
+      <bind nodeset="/data/ultrasound_trimester_t1/ut_que3" type="int"/>
+      <bind nodeset="/data/ultrasound_trimester_t1/ut_que4" type="select1"/>
+      <bind nodeset="/data/ultrasound_trimester_t1/ut_que4_1" type="string"/>
+      <bind nodeset="/data/ultrasound_trimester_t2/ut_que1" type="date"/>
+      <bind nodeset="/data/ultrasound_trimester_t2/ut_que2" type="decimal"/>
+      <bind nodeset="/data/ultrasound_trimester_t2/ut_que3" type="int"/>
+      <bind nodeset="/data/ultrasound_trimester_t2/ut_que4" type="select1"/>
+      <bind nodeset="/data/ultrasound_trimester_t2/ut_que4_1" type="string"/>
+      <bind nodeset="/data/ultrasound_trimester_t3/ut_que1" type="date"/>
+      <bind nodeset="/data/ultrasound_trimester_t3/ut_que2" type="decimal"/>
+      <bind nodeset="/data/ultrasound_trimester_t3/ut_que3" type="int"/>
+      <bind nodeset="/data/ultrasound_trimester_t3/ut_que4" type="select1"/>
+      <bind nodeset="/data/ultrasound_trimester_t3/ut_que4_1" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/interview_details:label')"/>
+      <input ref="/data/interview_details/date_of_interview">
+        <label ref="jr:itext('/data/interview_details/date_of_interview:label')"/>
+      </input>
+      <input ref="/data/interview_details/study_id">
+        <label ref="jr:itext('/data/interview_details/study_id:label')"/>
+      </input>
+      <input ref="/data/interview_details/name">
+        <label ref="jr:itext('/data/interview_details/name:label')"/>
+      </input>
+      <input ref="/data/interview_details/phone_number">
+        <label ref="jr:itext('/data/interview_details/phone_number:label')"/>
+      </input>
+      <input ref="/data/interview_details/husbands_phone_number">
+        <label ref="jr:itext('/data/interview_details/husbands_phone_number:label')"/>
+      </input>
+      <select1 ref="/data/interview_details/interviewer_id">
+        <label ref="jr:itext('/data/interview_details/interviewer_id:label')"/>
+        <item>
+          <label ref="jr:itext('/data/interview_details/interviewer_id:option0')"/>
+          <value>SM</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/interview_details/interviewer_id:option1')"/>
+          <value>AD</value>
+        </item>
+      </select1>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/pregnancy_outcome:label')"/>
+      <input ref="/data/pregnancy_outcome/po_que1">
+        <label ref="jr:itext('/data/pregnancy_outcome/po_que1:label')"/>
+        <hint ref="jr:itext('/data/pregnancy_outcome/po_que1:hint')"/>
+      </input>
+      <input ref="/data/pregnancy_outcome/po_que1_1">
+        <label ref="jr:itext('/data/pregnancy_outcome/po_que1_1:label')"/>
+      </input>
+      <select1 ref="/data/pregnancy_outcome/po_que2">
+        <label ref="jr:itext('/data/pregnancy_outcome/po_que2:label')"/>
+        <item>
+          <label ref="jr:itext('/data/pregnancy_outcome/po_que2:option0')"/>
+          <value>Live Birth</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/pregnancy_outcome/po_que2:option1')"/>
+          <value>Still Birth</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/pregnancy_outcome/po_que2:option2')"/>
+          <value>Early neonatal death</value>
+        </item>
+      </select1>
+      <select1 ref="/data/pregnancy_outcome/po_que3">
+        <label ref="jr:itext('/data/pregnancy_outcome/po_que3:label')"/>
+        <item>
+          <label ref="jr:itext('/data/pregnancy_outcome/po_que3:option0')"/>
+          <value>Normal</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/pregnancy_outcome/po_que3:option1')"/>
+          <value>Normal, forceps assisted</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/pregnancy_outcome/po_que3:option2')"/>
+          <value>Cesarean</value>
+        </item>
+      </select1>
+      <select1 ref="/data/pregnancy_outcome/po_que4">
+        <label ref="jr:itext('/data/pregnancy_outcome/po_que4:label')"/>
+        <item>
+          <label ref="jr:itext('/data/pregnancy_outcome/po_que4:option0')"/>
+          <value>Elective</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/pregnancy_outcome/po_que4:option1')"/>
+          <value>Emergency </value>
+        </item>
+      </select1>
+      <input ref="/data/pregnancy_outcome/po_que4_1">
+        <label ref="jr:itext('/data/pregnancy_outcome/po_que4_1:label')"/>
+      </input>
+      <input ref="/data/pregnancy_outcome/po_que5">
+        <label ref="jr:itext('/data/pregnancy_outcome/po_que5:label')"/>
+        <hint ref="jr:itext('/data/pregnancy_outcome/po_que5:hint')"/>
+      </input>
+      <input ref="/data/pregnancy_outcome/po_que5_1">
+        <label ref="jr:itext('/data/pregnancy_outcome/po_que5_1:label')"/>
+        <hint ref="jr:itext('/data/pregnancy_outcome/po_que5_1:hint')"/>
+      </input>
+      <input ref="/data/pregnancy_outcome/po_que6">
+        <label ref="jr:itext('/data/pregnancy_outcome/po_que6:label')"/>
+        <hint ref="jr:itext('/data/pregnancy_outcome/po_que6:hint')"/>
+      </input>
+      <input ref="/data/pregnancy_outcome/po_que7">
+        <label ref="jr:itext('/data/pregnancy_outcome/po_que7:label')"/>
+        <hint ref="jr:itext('/data/pregnancy_outcome/po_que7:hint')"/>
+      </input>
+      <input ref="/data/pregnancy_outcome/po_que8">
+        <label ref="jr:itext('/data/pregnancy_outcome/po_que8:label')"/>
+        <hint ref="jr:itext('/data/pregnancy_outcome/po_que8:hint')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/infant_health:label')"/>
+      <select1 ref="/data/infant_health/ih_que1">
+        <label ref="jr:itext('/data/infant_health/ih_que1:label')"/>
+        <item>
+          <label ref="jr:itext('/data/infant_health/ih_que1:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/infant_health/ih_que1:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/infant_health/ih_que2">
+        <label ref="jr:itext('/data/infant_health/ih_que2:label')"/>
+      </input>
+      <select1 ref="/data/infant_health/ih_que3">
+        <label ref="jr:itext('/data/infant_health/ih_que3:label')"/>
+        <item>
+          <label ref="jr:itext('/data/infant_health/ih_que3:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/infant_health/ih_que3:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/infant_health/ih_que4">
+        <label ref="jr:itext('/data/infant_health/ih_que4:label')"/>
+        <hint ref="jr:itext('/data/infant_health/ih_que4:hint')"/>
+      </input>
+      <select1 ref="/data/infant_health/ih_que5">
+        <label ref="jr:itext('/data/infant_health/ih_que5:label')"/>
+        <item>
+          <label ref="jr:itext('/data/infant_health/ih_que5:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/infant_health/ih_que5:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/infant_health/ih_que5_1">
+        <label ref="jr:itext('/data/infant_health/ih_que5_1:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/ultrasound_trimester_t1:label')"/>
+      <input ref="/data/ultrasound_trimester_t1/ut_que1">
+        <label ref="jr:itext('/data/ultrasound_trimester_t1/ut_que1:label')"/>
+      </input>
+      <input ref="/data/ultrasound_trimester_t1/ut_que2">
+        <label ref="jr:itext('/data/ultrasound_trimester_t1/ut_que2:label')"/>
+        <hint ref="jr:itext('/data/ultrasound_trimester_t1/ut_que2:hint')"/>
+      </input>
+      <input ref="/data/ultrasound_trimester_t1/ut_que3">
+        <label ref="jr:itext('/data/ultrasound_trimester_t1/ut_que3:label')"/>
+        <hint ref="jr:itext('/data/ultrasound_trimester_t1/ut_que3:hint')"/>
+      </input>
+      <select1 ref="/data/ultrasound_trimester_t1/ut_que4">
+        <label ref="jr:itext('/data/ultrasound_trimester_t1/ut_que4:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ultrasound_trimester_t1/ut_que4:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ultrasound_trimester_t1/ut_que4:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/ultrasound_trimester_t1/ut_que4_1">
+        <label ref="jr:itext('/data/ultrasound_trimester_t1/ut_que4_1:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/ultrasound_trimester_t2:label')"/>
+      <input ref="/data/ultrasound_trimester_t2/ut_que1">
+        <label ref="jr:itext('/data/ultrasound_trimester_t2/ut_que1:label')"/>
+      </input>
+      <input ref="/data/ultrasound_trimester_t2/ut_que2">
+        <label ref="jr:itext('/data/ultrasound_trimester_t2/ut_que2:label')"/>
+        <hint ref="jr:itext('/data/ultrasound_trimester_t2/ut_que2:hint')"/>
+      </input>
+      <input ref="/data/ultrasound_trimester_t2/ut_que3">
+        <label ref="jr:itext('/data/ultrasound_trimester_t2/ut_que3:label')"/>
+        <hint ref="jr:itext('/data/ultrasound_trimester_t2/ut_que3:hint')"/>
+      </input>
+      <select1 ref="/data/ultrasound_trimester_t2/ut_que4">
+        <label ref="jr:itext('/data/ultrasound_trimester_t2/ut_que4:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ultrasound_trimester_t2/ut_que4:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ultrasound_trimester_t2/ut_que4:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/ultrasound_trimester_t2/ut_que4_1">
+        <label ref="jr:itext('/data/ultrasound_trimester_t2/ut_que4_1:label')"/>
+      </input>
+    </group>
+    <group appearance="field-list">
+      <label ref="jr:itext('/data/ultrasound_trimester_t3:label')"/>
+      <input ref="/data/ultrasound_trimester_t3/ut_que1">
+        <label ref="jr:itext('/data/ultrasound_trimester_t3/ut_que1:label')"/>
+      </input>
+      <input ref="/data/ultrasound_trimester_t3/ut_que2">
+        <label ref="jr:itext('/data/ultrasound_trimester_t3/ut_que2:label')"/>
+        <hint ref="jr:itext('/data/ultrasound_trimester_t3/ut_que2:hint')"/>
+      </input>
+      <input ref="/data/ultrasound_trimester_t3/ut_que3">
+        <label ref="jr:itext('/data/ultrasound_trimester_t3/ut_que3:label')"/>
+        <hint ref="jr:itext('/data/ultrasound_trimester_t3/ut_que3:hint')"/>
+      </input>
+      <select1 ref="/data/ultrasound_trimester_t3/ut_que4">
+        <label ref="jr:itext('/data/ultrasound_trimester_t3/ut_que4:label')"/>
+        <item>
+          <label ref="jr:itext('/data/ultrasound_trimester_t3/ut_que4:option0')"/>
+          <value>Yes</value>
+        </item>
+        <item>
+          <label ref="jr:itext('/data/ultrasound_trimester_t3/ut_que4:option1')"/>
+          <value>No</value>
+        </item>
+      </select1>
+      <input ref="/data/ultrasound_trimester_t3/ut_que4_1">
+        <label ref="jr:itext('/data/ultrasound_trimester_t3/ut_que4_1:label')"/>
+      </input>
+    </group>
+  </h:body>
+</h:html>
